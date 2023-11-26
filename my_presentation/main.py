@@ -3,7 +3,7 @@ import cv2
 from cvzone.HandTrackingModule import HandDetector
 import numpy as np
 
-my_path = "slides"
+my_path = "slides" # input slides to add 
 width, height = 1280, 720
 cap = cv2.VideoCapture(0)
 cap.set(3, width)
